@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Gorudo Bikes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Etiqueta meta para hacer la página responsive por defecto-->
+	<link rel="icon" href="Imagenes/logo_negro.png" type="image/x-icon"> <!--Icono del logo que aparecerá en la barra de navegación del navegador-->
+	<link rel="stylesheet" href="style/styles.css"> <!-- Enlace a la hoja de estilos-->
+
+
+</head>
+<body>
+
+  <!--__________________________________________________________________GRID 1____________________________________________________________-->
+
+	<div class="grid1">
+	 	<div class="header">
+			<div class="logosubmenu">
+				<!--Icono del submenú, que solamente será visible en tamaños de pantalla correspondientes a Tablets o móviles-->
+			<a href="#Submenú" class="iconli">	<img class=lsubm src="Imagenes/submenu.png" alt="Submenú"></a>
+			</div>
+	 		<div class="menuheader">
+	 				<!--La lista inferior representa el menú principal izquierdo que se verá en la cabecera de la página.-->
+	 			<ul class="mul">
+	 				<li class="ml"><a href="#Bicicletas"> Bicicletas</a></li>
+	 				<li class="ml"><a href="#Accesorios"> Accesorios</a></li> 
+	 				<li class="ml"><a href="#Rutas"> Rutas</a></li>
+	 				<li class="ml"><a href="#Blog"> Blog</a></li>
+	 			</ul>
+			</div>
+			<div class="logo"></div>
+			<!-- La lista inferior mostrará el menú de iconos que se representará en la parte superior izquierda de la página.-->
+			<div class="menuiconos">
+	 			<ul class="iconul">
+					<li class="iconli oculto"><a href="#Lupa"><img src="Imagenes/lupa1.png" alt="icono del usuario" class="imgiconli"></a></li>
+	 				<li class="iconli"><a href="#Usuario"><img src="Imagenes/Usuario.png" alt="icono del usuario" class="imgiconli"></a></li>
+	 				<li class="iconli"><a href="#Carrito"><img src="Imagenes/Carrito.png" alt="icono del carrito" class="imgiconli"></a></li>
+	 				<li class="iconli"><a href="#Info"><img src="Imagenes/Info.png" alt="icono de información" class="imgiconli"></a></li>
+	 			</ul>
+			</div>
+			<div class="submenu">
+				<!-- La lista inferior mostrará el menú de novedades, tendencias y rebajas, que estrá situado en la partre inferior izquierda del header.-->
+				<ul class="sul">
+					<li class="sli"><a href="#Novedades">Novedades</a></li>
+					<li class="sli"><a href="#Tendencias">Tendencias</a></li>
+					<li class="sli"><a href="#Rebajas">Rebajas</a></li>
+				</ul>
+			</div>
+			<div class="barrabuscar">
+				<!--El input mostrará la barra de búsqueda, y la imagen el icono de la lupa-->
+      			<input type="text" placeholder="Buscar..." name="Buscar" class="inputbuscar">
+						<img src="Imagenes/lupa1.png" alt="icono de lupa" class="imglupa">
+			</div>
+
+	 	</div>
+
+	 		<!-- Contendor principal izquierdo -->
+	 		<div class= "cizquierda">
+
+
+
+	 		</div>
+
+	 		<!-- Contendor principal central -->
+	 		<div class="ccentro">
+
+	 		</div>
+
+	 		<!-- Contendor principal derecho -->
+	 		<div class="cderecha">
+				<div class="intro">
+				<!-- En este contenedor se muestra el botón de iniciar sesión-->
+	 			<p class="p">Identifícate para una mejor experiencia</p>
+
+	 			<button onclick="inisesi()" class="botonini">Iniciar Sesión</button><br>
+									<hr>
+	 			<p class="p">Productos más populares</p>
+
+			</div>
+				<!-- En este contenedor se muestran los productos más populares, con un título en H3 y una imagen-->
+				<div class="producto1">
+					<h3>Bh Peak</h3>
+					<img src="Imagenes/BHpeak.jpg" class="imagentabla" alt="Bicicleta Bh Peak">
+				</div>
+				<div class="producto2">
+ 					<h3>Maillot</h3>
+					<img src="Imagenes/maillot.jpg" class="imagentabla" alt="Maillot">
+ 				</div>
+
+				<div class="producto3">
+					<h3>Casco</h3>
+					<img src="Imagenes/cascopoc.jpg" class="imagentabla" alt="Casco">
+				</div>
+				<div class="producto4">
+					<h3>Bh Quartz</h3>
+					<img src="Imagenes/BHquarzt3.jpg" class="imagentabla" alt="Bicicleta BH Quartz">
+				</div>
+	 		</div>
+
+
+	 		<div class="footer">
+	 			<!-- En este contendedor se encuentra la parte inferior de la página o footer. Primero aparecen en una lista los iconos de redes sociales y por último un párrafo que contiene la línea de copyright-->
+	 			<ul class="socialul">
+	 				<li class="iconli"><a href="#Youtube"><img src="Imagenes/Youtube.png" alt="Canal de Youtube" title="Canal de Youtube" class="imgsocial"></a></li>
+	 				<li class="iconli"><a href="#Instagram"><img src="Imagenes/Instagram.png" alt="Instagram" title="Instagram" class="imgsocial"></a></li>
+	 				<li class="iconli"><a href="#Twitter"><img src="Imagenes/Twitter.png" alt="Twitter" title="Twitter" class="imgsocial"></a></li>
+	 			</ul>
+
+	 			<p class="pfooter">&copy; 2020 Gorudo Bikes. Todos los derechos reservados.</p>
+	 		</div>
+	</div>
+
+  <!--__________________________________________________________________GRID 2____________________________________________________________-->
+
+	<div class="grid2">
+		<div class="header">
+			<!--Mismo header que en el GRID 1-->
+			<div class="logosubmenu">
+			<a href="#Submenú" class="iconli">	<img class="lsubm" src="Imagenes/submenu.png" alt="Submenú"></a>
+			</div>
+			<div class="menuheader">
+				<ul class="mul">
+					<li class="ml"><a href="#Bicicletas"> Bicicletas</a></li>
+					<li class="ml"><a href="#Accesorios"> Accesorios</a></li>
+					<li class="ml"><a href="#Rutas"> Rutas</a></li>
+					<li class="ml"><a href="#Blog"> Blog</a></li>
+				</ul>
+			</div>
+			<div class="logo"></div>
+			<div class="menuiconos">
+				<ul class="iconul">
+					<li class="iconli oculto"><a href="#Lupa"><img src="Imagenes/lupa1.png" alt="icono del usuario" class="imgiconli"></a></li>
+					<li class="iconli"><a href="#Usuario"><img src="Imagenes/Usuario.png" alt="icono del usuario" class="imgiconli"></a></li>
+					<li class="iconli"><a href="#Carrito"><img src="Imagenes/Carrito.png" alt="icono del carrito" class="imgiconli"></a></li>
+					<li class="iconli"><a href="#Info"><img src="Imagenes/Info.png" alt="icono de información" class="imgiconli"></a></li>
+				</ul>
+			</div>
+			<div class="submenu">
+				<ul class="sul">
+					<li class="sli"><a href="#Novedades">Novedades</a></li>
+					<li class="sli"><a href="#Tendencias">Tendencias</a></li>
+					<li class="sli"><a href="#Rebajas">Rebajas</a></li>
+				</ul>
+			</div>
+			<div class="barrabuscar">
+						<input type="text" placeholder="Buscar..." name="Buscar" class="inputbuscar">
+						<input  type="image" name="botonlupa" src="Imagenes/lupa1.png" alt="icono de lupa" class="imglupa">
+			</div>
+
+		</div>
+
+
+			<div class= "cizquierda">
+				<!-- Contendor izquierdo: Se muestra el título de registrarse y la imagen del perfil, junto con unos <br> para separar el contenido-->
+				<br>
+				<h2 class="h2">Registrate</h2>
+				<br>
+				<br>
+				<img src="Imagenes/perfil.jpg" alt="Imagen perfil" class="imgperfil" id="fotoperfil">
+				<br>
+				<br>
+				<div class="image-upload">
+					<!-- En este contenedor se incluyen los elementos para añadir o cambiar la imagen de perfil.-->
+				  <label for="file-input">
+				    <img src="Imagenes/plusw.png" alt="icono de más" title="Añadir imagen de perfil" class="imgmas"/>
+				    <!--Imagen para añadir imagen de perfil.-->
+				  </label>
+				  <!--input que permitirá seleccionar un archivo de tipo imagen y que aplicara la función cambiarimagen() al interacionar con él-->
+				  <input id="file-input" type="file" name="file" accept="image/*" onchange="cambiarimagen();"/>
+				</div>
+			</div>
+
+			<div class="ccentro">
+				<!-- Contendor central-->
+				<form class="formulario" name ="formulario" id="formu" method="post">
+					<!-- Se muestra el formulario. La etiqueta label corresponde con el nombre superior y la de input con la casilla en la que se introduce el texto.-->
+					<label class="lblform">Nombre:</label>
+					<input type="text" name="nombre" class="inputform" id = "name" >
+					<label class="lblform">Correo electrónico:</label>
+					<input type="text" name="correo" class="inputform" id = "email">
+					<label class="lblform">Contraseña:</label>
+					<input type="password" name="contraseña" class="inputform" id = "pass" >
+					<label class="lblform">Confirma contraseña:</label>
+					<input type="password" name="confirmaCcontraseña" class="inputform" id = "pass2" >
+					<div class="checkdiv">
+						<!-- El input representa la casilla de para marcar el checkbox y el label contiene el checkbox más el texto que le acompaña-->
+						<label class="checkbox">
+							<input type="checkbox" checked="checked">
+							Acepto las condiciones de uso y la política de privacidad.
+						</label>
+
+						<br>
+						<br> <!-- Se usan los <br> para separar el contenido y que de esta forma sea más claro  y visual-->
+						<input type="button" class="botonreg" onclick="validarformulario(); locals(); cdatos()" value="Registrarse" ><!-- Botón de registro-->
+						<p class="p">Leer más.</p>
+					</div>
+				</form>
+			</div>
+
+			<div class="cderecha">
+				<!-- Contendor derecho: el único cambio con respecto al Grid 1 es que se omite el botón de iniciar sesión-->
+				<div class="intro">
+
+				<p class="p">Identifícate para una mejor experiencia</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+									<hr>
+				<p class="p">Productos más populares</p>
+
+				</div>
+
+				<div class="producto1">
+					<h3>Bh Peak</h3>
+					<img src="Imagenes/BHpeak.jpg" class="imagentabla" alt="Bicicleta Bh Peak">
+				</div>
+				<div class="producto2">
+					<h3>Maillot</h3>
+					<img src="Imagenes/maillot.jpg" class="imagentabla" alt="Maillot">
+				</div>
+
+				<div class="producto3">
+					<h3>Casco</h3>
+					<img src="Imagenes/cascopoc.jpg" class="imagentabla" alt="Casco">
+				</div>
+				<div class="producto4">
+					<h3>Bh Quartz</h3>
+					<img src="Imagenes/BHquarzt3.jpg" class="imagentabla" alt="Bicicleta BH Quartz">
+				</div>
+			</div>
+
+
+			<div class="footer">
+				<!-- El footer es el mismo que en el GRID 1-->
+				<ul class="socialul">
+					<li class="iconli"><a href="#Youtube"><img src="Imagenes/Youtube.png" alt="Canal de Youtube" title="Canal de Youtube" class="imgsocial"></a></li>
+					<li class="iconli"><a href="#Instagram"><img src="Imagenes/Instagram.png" alt="Instagram" title="Instagram" class="imgsocial"></a></li>
+					<li class="iconli"><a href="#Twitter"><img src="Imagenes/Twitter.png" alt="Twitter" title="Twitter" class="imgsocial"></a></li>
+				</ul>
+
+				<p class="pfooter">&copy; 2020 Gorudo Bikes. Todos los derechos reservados.</p>
+			</div>
+	</div>
+
+  <!--__________________________________________________________________GRID 3____________________________________________________________-->
+
+	<div class="grid3" >
+	 	<div class="header">
+	 		<!--Mismo header que en el GRID 1-->
+			<div class="logosubmenu">
+			<a href="#Submenú" class="iconli">	<img class=lsubm src="Imagenes/submenu.png" alt="Submenú"></a>
+			</div>
+	 		<div class="menuheader">
+	 			<ul class="mul">
+	 				<li class="ml"><a href="#Bicicletas"> Bicicletas</a></li>
+	 				<li class="ml"><a href="#Accesorios"> Accesorios</a></li>
+	 				<li class="ml"><a href="#Rutas"> Rutas</a></li>
+	 				<li class="ml"><a href="#Blog"> Blog</a></li>
+	 			</ul>
+			</div>
+			<div class="logo"></div>
+			<div class="menuiconos">
+	 			<ul class="iconul">
+					<li class="iconli oculto"><a href="#Lupa"><img src="Imagenes/lupa1.png" alt="icono del usuario" class="imgiconli"></a></li>
+	 				<li class="iconli"><a href="#Usuario"><img src="Imagenes/Usuario.png" alt="icono del usuario" class="imgiconli"></a></li>
+	 				<li class="iconli"><a href="#Carrito"><img src="Imagenes/Carrito.png" alt="icono del carrito" class="imgiconli"></a></li>
+	 				<li class="iconli"><a href="#Info"><img src="Imagenes/Info.png" alt="icono de información" class="imgiconli"></a></li>
+	 			</ul>
+			</div>
+			<div class="submenu">
+				<ul class="sul">
+					<li class="sli"><a href="#Novedades">Novedades</a></li>
+					<li class="sli"><a href="#Tendencias">Tendencias</a></li>
+					<li class="sli"><a href="#Rebajas">Rebajas</a></li>
+				</ul>
+			</div>
+			<div class="barrabuscar">
+      			<input type="text" placeholder="Buscar..." name="Buscar" class="inputbuscar">
+      			<input  type="image" name="botonlupa" src="Imagenes/lupa1.png" alt="icono de lupa" class="imglupa">
+			</div>
+
+	 	</div>
+
+
+	 		<div class= "cizquierda">
+	 			<!-- Contendedor izquierdo-->
+	 			<h3>Categorías</h3> <!-- Encabezado de este contenedor en H3-->
+	 			<br>
+	 			<br>
+	 			<div class="Checkdiv1"> <!-- Checkboxes sobre las diferentes categorías-->
+	 				<label class="container">Carretera
+	 				  <input type="checkbox" checked="checked" id="chcarretera" onclick="checklist(this); camimgch();" class="ch" name="check">
+	 				  <span class="checkmark"></span>
+	 				</label>
+	 				<label class="container">Montaña
+	 				  <input type="checkbox" id="chmontana" onclick="checklist(this); camimgch();" class="ch" name="check">
+	 				  <span class="checkmark"></span>
+	 				</label>
+	 				<label class="container">Urbana
+	 				  <input type="checkbox" id="churbana" onclick="checklist(this); camimgch();" class="ch" name="check">
+	 				  <span class="checkmark"></span>
+	 				</label>
+	 				<label class="container">Ciclocross
+	 				  <input type="checkbox" id="chciclocross" onclick="checklist(this); camimgch();"class="ch" name="check">
+	 				  <span class="checkmark"></span>
+	 				</label>
+				</div>
+
+	 		</div>
+
+	 		<div class="ccentro">
+	 			<!-- Contenedor central-->
+	 			<h3>Novedades</h3> <!-- Encabezado de este contenedor en H3-->
+	 			<br>
+	 			<ul class="novul"> <!-- Lista en la que se muestra la imagen del producto y las dos flechas deslizantes.-->
+	 				<li class="arrowli"><img src="Imagenes/flecha.png" alt="flecha" class="flechaizq" onclick="decrementa(); imgc()"></li>
+	 				<li class="arrowli"><img src="Imagenes/roadbike.jpg" alt="Imágenes de novedades" class="imgnovedad" id="carretera"></li>
+	 				<li class="arrowli"><img src="Imagenes/mountainbike.jpg" alt="Imágenes de novedades" class="imgnovedad" id="montana"></li>
+	 				<li class="arrowli"><img src="Imagenes/urbanbike.jpg" alt="Imágenes de novedades" class="imgnovedad" id="urbana"></li>
+	 				<li class="arrowli"><img src="Imagenes/ciclocross.jpg" alt="Imágenes de novedades" class="imgnovedad" id="ciclocross"></li>
+	 				<li class="arrowli"><img src="Imagenes/flecha1.png" alt="flecha" class="flechader" onclick="incrementa(); imgc()"></li>
+	 			</ul>
+	 			<br>
+	 			<br>
+	 			<p id="contadorlikes"></p>
+	 			<img src="Imagenes/likeoff.png" alt="Like" id= "megusta" class="likeimg" onclick="likes(); likeon()"> <!-- Imagen del like-->
+	 			<p class="plk" contenteditable="true">Nueva bicicleta disponible de forma limitada en nuestra tienda online.</p> 
+	 			<!-- Descripción del producto, esta se podrá editar por el usuario gracias a la etiqueta contenteditable-->
+	 			<p class="plk">900€</p> <!-- Precio del producto-->
+
+	 		</div>
+
+	 		<div class="cderecha">
+	 			<!-- Contenedor derecho-->
+				<div class="intro">
+
+				<p class="p" id="nusuario">Hola Usuario de prueba</p>
+					<!-- Mensaje de saludo al usuario identificado-->
+				<p class="p" id="ausuario">Cliente desde 2008</p>
+
+				<button onclick="cesesi()" class="botonini">Cerrar Sesión</button><br> <!-- Botón para cerrar sesión-->
+									<hr>
+				<p class="p">Productos más populares</p> <!-- Productos más populares, el mismo que en el resto de grids-->
+
+				</div>
+
+				<div class="producto1" onclick="popup1()">
+					<img src="Imagenes/BHpeak.jpg" class="imagentabla" alt="Bicicleta Bh Peak">
+					<span class="popup" id="popup1">Bicicleta de Montaña BH 26".Blanca y Roja. <br> 350€</span>
+					<h3>Bh Peak</h3>
+				</div>
+				<div class="producto2" onclick="popup2()">
+					<img src="Imagenes/maillot.jpg" class="imagentabla" alt="Maillot">
+					<span class="popup" id="popup2">Mallot super cómodo y transpirable a dos colores.<br>50€</span>
+					<h3>Maillot</h3>
+				</div>
+
+				<div class="producto3" onclick="popup3()">
+					<img src="Imagenes/cascopoc.jpg" class="imagentabla" alt="Casco">
+					<span class="popup" id="popup3">Casco blanco de fibra de carbono con plástico. <br> 40€</span>
+					<h3>Casco</h3>
+				</div>
+				<div class="producto4" onclick="popup4()">
+					<img src="Imagenes/BHquarzt3.jpg" class="imagentabla" alt="Bicicleta BH Quartz">
+					<span class="popup" id="popup4">Bicicleta Quartz de Carretera. 29" Negra y Pistacho <br> 420€</span>
+					<h3>Bh Quartz</h3>
+				</div>
+	 		</div>
+
+
+	 		<div class="footer">
+	 			<!-- El footer es el mismo que en el GRID 1-->
+	 			<ul class="socialul">
+	 				<li class="iconli"><a href="#Youtube"><img src="Imagenes/Youtube.png" alt="Canal de Youtube" title="Canal de Youtube" class="imgsocial"></a></li>
+	 				<li class="iconli"><a href="#Instagram"><img src="Imagenes/Instagram.png" alt="Instagram" title="Instagram" class="imgsocial"></a></li>
+	 				<li class="iconli"><a href="#Twitter"><img src="Imagenes/Twitter.png" alt="Twitter" title="Twitter" class="imgsocial"></a></li>
+	 			</ul>
+
+	 			<p class="pfooter">&copy; 2020 Gorudo Bikes. Todos los derechos reservados.</p>
+	 		</div>
+	</div>
+
+	<script src="script/botones.js"></script>
+	<script src="script/cambiarimgperfil.js"></script>
+	<script src="script/checkboxes.js"></script>
+	<script src="script/listaimagenes.js"></script>
+	<script src="script/likes.js"></script>
+</body>
+</html>
